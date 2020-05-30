@@ -1071,6 +1071,7 @@ GameObject:
   - component: {fileID: 2038329251}
   - component: {fileID: 2038329256}
   - component: {fileID: 2038329255}
+  - component: {fileID: 2038329257}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1091,18 +1092,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 89.72974, y: 25.134377}
+  scrollPos: {x: 76.638504, y: 19.38822}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 205
-  zoom: 0.7600002
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 2038329243}
   selectedCommands: []
   variables: []
   description: 
@@ -1157,8 +1159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 48.578964
-    y: 64.052635
+    x: 52.37643
+    y: 65.31846
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1178,6 +1180,7 @@ MonoBehaviour:
   - {fileID: 2038329253}
   - {fileID: 2038329252}
   - {fileID: 2038329251}
+  - {fileID: 2038329257}
   suppressAllAutoSelections: 0
 --- !u!114 &2038329244
 MonoBehaviour:
@@ -1515,3 +1518,30 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList: []
   suppressAllAutoSelections: 0
+--- !u!114 &2038329257
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038329240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  storyText: "\u672C\u65E5\u306F\u6674\u5929\u306A\u308A"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
